@@ -3,6 +3,14 @@ roles:
     - name: first-name
     - filler: filler-text  
     - name: second-name
+    - test: filler-text
+    - name: something
+    - test: filler-text
+    - name: something
+    - test: filler-text
+    - name: something
+    - test: filler-text
+    - name: something
   steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
